@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products</fullName>
+    <columns>NAME</columns>
+    <columns>Module__c</columns>
+    <columns>POS_Payload__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Module__c</field>
+        <operation>equals</operation>
+        <value>Product</value>
+    </filters>
+    <label>Products</label>
+</ListView>
